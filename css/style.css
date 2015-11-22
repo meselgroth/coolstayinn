@@ -471,7 +471,8 @@ nav a {
             }
 
             .social-icons ul li a.f2 {
-                background: url(../images/img-sprite.png) no-repeat -26px 0px;
+                background: url(../img/Tripadvisor2.png) no-repeat 0px 0px;
+                background-size: 27px 27px;
             }
 
             .social-icons ul li a.f3 {
@@ -488,7 +489,8 @@ nav a {
             }
 
             .social-icons ul li a.f2:hover {
-                background: url(../images/img-sprite-hover.png) no-repeat -26px 0px;
+                background: url(../img/Tripadvisor2.png) no-repeat 0px 0px;
+                background-size: 27px 27px;
                 transform: rotateY(360deg);
             }
 
@@ -508,7 +510,7 @@ nav a {
     color: #fff;
     font-size: 75px;
     font-family: "Honey-Script";
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 darkblue, 1px -1px 0 darkblue, -1px 1px 0 darkblue, 1px 1px 0 darkblue;
 }
 /*-- menu --*/
 .navigation span {
@@ -1081,7 +1083,7 @@ h3.tittle, h2.tittle-one {
             }
 
             .ftr-logo ul li a.f2 {
-                background: url(../images/img-sprite.png) no-repeat -26px 0px;
+                background: url(../img/Tripadvisor.png) no-repeat 0px 0px;
             }
 
             .ftr-logo ul li a.f3 {
