@@ -510,7 +510,7 @@ nav a {
     color: #fff;
     font-size: 75px;
     font-family: "Honey-Script";
-    text-shadow: -1px -1px 0 darkblue, 1px -1px 0 darkblue, -1px 1px 0 darkblue, 1px 1px 0 darkblue;
+    text-shadow: -1px -1px 0 #004961, 1px -1px 0 #004961, -1px 1px 0 #004961, 1px 1px 0 #004961;
 }
 /*-- menu --*/
 .navigation span {
@@ -779,7 +779,7 @@ figure.effect-bubba {
 
 h3.tittle, h2.tittle-one {
     margin-bottom: 50px;
-    color: #DF1E1C;
+    color: #004961;
     font-size: 36px;
     font-family: 'Alegreya-Regular';
     text-align: center;
