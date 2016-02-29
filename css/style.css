@@ -377,7 +377,7 @@ a.callbacks_nav.callbacks2_nav.next {
 
 /*-- banner --*/
 .banner {
-    background: url(../img/hotelfront.jpg) no-repeat 0px -71px;
+    background: url(../img/hanna2.jpg) no-repeat 0px -71px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -406,11 +406,11 @@ a.callbacks_nav.callbacks2_nav.next {
         padding: 0 0 6px 0;
         max-width: 0;
         border-bottom: 2px solid #fff;
-        color: black;
         content: attr(data-hover);
         -webkit-transition: max-width 0.5s;
         -moz-transition: max-width 0.5s;
         transition: max-width 0.5s;
+        text-shadow: 1px 1px 3px #fff;
     }
 
     .cl-effect-11 a:hover::before,
@@ -439,7 +439,7 @@ nav a {
 /*-- //Effect 11 --*/
 /*-- header --*/
 .header-nav {
-    padding-top: 40px;
+    padding: 25px;
 }
 
     .header-nav .glyphicon-home {
@@ -450,7 +450,7 @@ nav a {
     }
 
 .social-icons {
-    margin-top: 20px;
+    margin-top: 44px;
     float: right;
 }
 
@@ -506,7 +506,7 @@ ul li a.f4:hover {
 
 .logo a {
     text-decoration: none;
-    display: block;
+    display: none;
     color: #fff;
     font-size: 75px;
     font-family: "Honey-Script";
@@ -537,16 +537,12 @@ ul li a.f4:hover {
     text-align: center;
     float: left;
     width: 60%;
-    margin-top: 20px;
+    margin-top: 44px;
 }
 
     .navigation ul li a.active {
         color: beige;
     }
-
-.social-icons {
-    float: right;
-}
 /*-- //header --*/
 .banner-bottom {
     margin-top: 30px;
@@ -4210,4 +4206,19 @@ select {
 
 .clear {
     clear: both;
+}
+
+.bg-black {
+    background: rgba(0,0,0,0.8);
+}
+
+.logo-img {
+    width: 100%;
+    box-shadow: 0px 0px 4px #fff;
+    border-radius: 14px;
+}
+
+.menu-img {
+    background: rgba(255,255,255,.6);
+    border-radius: 50%;
 }
