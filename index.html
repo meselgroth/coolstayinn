@@ -1,9 +1,4 @@
-﻿<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+﻿
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,7 +39,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="logo">
                     <h1><a href="index.html">Cool Stay Inn</a></h1>
                 </div>
-                <div class="navigation" style="display: none">
+                <div class="navigation" style="">
                     <span class="menu"><img src="images/menu.png" alt="" /></span>
                     <nav class="cl-effect-11" id="cl-effect-11">
                         <ul class="nav1">
@@ -108,7 +103,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </li>
                         <li>
                             <div class="banner-text">
-                                <h4>FEEL AT HOME IN OUR ROOMS WITH KITCHENETTE, AIRCON IN A QUIET NEIGHBOURHOOD</h4>
+                                <h4>FEEL AT HOME IN OUR QUIET NEIGHBOURHOOD</h4>
                             </div>
                         </li>
                     </ul>
@@ -116,65 +111,55 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
         </div>
 
-        <div class="container" style="display: none">
-            <div class="online_reservation">
-                <div class="b_room">
-                    <div class="booking_room">
-                        <h4>book a room online</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        <div class="container">
+            <div class="row online_reservation">
+                <div class=" b_room">
+                    <div class="col-md-4 booking_room">
+                        <h4>Book Online</h4>
+                        <p>Reserve ahead, we are often fully booked.</p>
                     </div>
-                    <div class="reservation">
-                        <ul>
-                            <li class="span1_of_1">
-                                <h5>type of room:</h5>
-                                <!----------start section_room----------->
-                                <div class="section_room">
-                                    <select id="country" onchange="change_country(this.value)" class="frm-field required">
-                                        <option value="null">Select a type of room</option>
-                                        <option value="null">Suite room</option>
-                                        <option value="AX">Single room</option>
-                                        <option value="AX">Double room</option>
-                                    </select>
-                                </div>
-                            </li>
-                            <li class="span1_of_1 left">
-                                <h5>check-in-date:</h5>
-                                <div class="book_date">
-                                    <form>
-                                        <input class="date hasDatepicker" id="datepicker" type="text" value="DD/MM/YY" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'DD/MM/YY';}" style="width: 156px;">
-                                    </form>
+                    <div class="col-md-8 reservation ">
+                        <div class="row">
+                            <ul>
+                                <li class="col-md-4">
+                                    <h5>Check-in</h5>
+                                    <div class="book_date">
+                                        <form>
+                                            <input class="date hasDatepicker" id="datepicker" type="text" value="DD/MM/YY" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'DD/MM/YY';}" style="width: 156px;">
+                                        </form>
 
-                                </div>
-                            </li>
-                            <li class="span1_of_1 left">
-                                <h5>check-out-date:</h5>
-                                <div class="book_date">
-                                    <form>
-                                        <input class="date hasDatepicker" id="datepicker1" type="text" value="DD/MM/YY" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'DD/MM/YY';}" style="width: 156px;">
-                                    </form>
-                                </div>
-                            </li>
-                            <li class="span1_of_2 left">
-                                <h5>Adults:</h5>
-                                <!----------start section_room----------->
-                                <div class="section_room">
-                                    <select id="country" onchange="change_country(this.value)" class="frm-field required">
-                                        <option value="null">1</option>
-                                        <option value="null">2</option>
-                                        <option value="AX">3</option>
-                                        <option value="AX">4</option>
-                                    </select>
-                                </div>
-                            </li>
-                            <li class="span1_of_3">
-                                <div class="date_btn">
-                                    <form>
-                                        <input type="submit" value="book now" style="width: 133px;">
-                                    </form>
-                                </div>
-                            </li>
-                            <div class="clear"></div>
-                        </ul>
+                                    </div>
+                                </li>
+                                <li class="col-md-4">
+                                    <h5>Check-out</h5>
+                                    <div class="book_date">
+                                        <form>
+                                            <input class="date hasDatepicker" id="datepicker1" type="text" value="DD/MM/YY" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'DD/MM/YY';}" style="width: 156px;">
+                                        </form>
+                                    </div>
+                                </li>
+                                <li class="col-md-2">
+                                    <h5>Adults</h5>
+                                    <!----------start section_room----------->
+                                    <div class="section_room">
+                                        <select id="country" onchange="change_country(this.value)" class="frm-field required">
+                                            <option value="null">1</option>
+                                            <option value="null">2</option>
+                                            <option value="AX">3</option>
+                                            <option value="AX">4</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li class="col-md-2">
+                                    <div class="date_btn">
+                                        <form>
+                                            <input type="submit" value="book now" style="width: 133px;">
+                                        </form>
+                                    </div>
+                                </li>
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -189,7 +174,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="ban-pos-gridtwo l-grids">
                     <div class="ban-pos-info l-grids">
                         <figure class="effect-bubba">
-                            <img src="img/hotelfront.jpg" alt="" />
+                            <img src="img/IMG_8954.jpg" alt="" />
                             <figcaption>
                                 <h4>NEWLY ESTABLISHED</h4>
                                 <p>Built in 2014</p>
@@ -228,7 +213,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="welcome">
         <div class="container">
             <h2 class="tittle-one">WELCOME</h2>
-            <div class="welcome-grids" style="display: none">
+            <div class="welcome-grids">
                 <div class="col-md-4 welcome-left">
                     <ul>
                         <li><a href="#">Lorem Ipsum is not simply random text.</a></li>
@@ -263,7 +248,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
     <!-- //welcome -->
     <!-- facilities -->
-    <div class="facilities" style="display: none">
+    <div class="facilities">
         <div class="container">
             <h3 class="tittle">FACILITIES</h3>
             <div class="facilities-grids">
@@ -290,7 +275,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
     <!-- //facilities -->
     <!-- services -->
-    <div class="feature-serv" style="display: none">
+    <div class="feature-serv">
         <div class="container">
             <h3 class="tittle">FEATURED SERVICES</h3>
             <div class="services-bottom-grids">
@@ -402,7 +387,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
     <!-- //services -->
     <!-- gallery -->
-    <div class="gallery" id="gallery" style="display: none">
+    <div class="gallery" id="gallery">
         <div class="container">
             <h3 class="tittle">GALLERY</h3>
             <div class="gallery-bottom">
@@ -533,7 +518,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 ftr_navi ftr" style="display: none">
+                <div class="col-md-3 ftr_navi ftr">
                     <h3>NAVIGATION</h3>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -543,7 +528,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3 ftr_navi ftr" style="display: none">
+                <div class="col-md-3 ftr_navi ftr">
                     <h3>FACILITIES</h3>
                     <ul>
                         <li><a href="#">Double bedrooms</a></li>

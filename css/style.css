@@ -377,7 +377,7 @@ a.callbacks_nav.callbacks2_nav.next {
 
 /*-- banner --*/
 .banner {
-    background: url(../img/banner3.jpg) no-repeat 0px 0px;
+    background: url(../img/hotelfront.jpg) no-repeat 0px -71px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -555,7 +555,9 @@ ul li a.f4:hover {
 }
 
 .banner-info {
-    margin-top: 140px;
+    margin-top: 121px;
+    float: left;
+    position: absolute;
 }
 
 .banner-text h3 {
@@ -769,12 +771,12 @@ figure.effect-bubba {
 
 .ban-pos-gridtwo {
     float: left;
-    width: 30%;
+    width: 33%;
 }
 
 .ban-pos-gridthree {
     float: left;
-    width: 30%;
+    width: 33%;
 }
 
 h3.tittle, h2.tittle-one {
@@ -2559,7 +2561,7 @@ a.best-btn {
 /*-- responsive media queries --*/
 @media (max-width: 1024px) {
     .logo a {
-        font-size: 36px;
+        font-size: 54px;
     }
 
     .header-nav .glyphicon-home {
@@ -2944,7 +2946,7 @@ a.best-btn {
     }
 
         .logo a {
-            font-size: 32px;
+            font-size: 45px;
         }
 
     .logo {
@@ -3304,6 +3306,7 @@ a.best-btn {
 
     .ban-pos-gridone, .ban-pos-gridtwo, .ban-pos-gridthree {
         min-height: 160px;
+        width: 100%;
     }
 
     figure.effect-bubba h4 {
@@ -3567,7 +3570,7 @@ a.best-btn {
     }
 
     .logo a {
-        font-size: 25px;
+        font-size: 34px;
     }
 
     .header-nav .glyphicon-home {
@@ -3653,12 +3656,12 @@ a.best-btn {
 
     .ban-pos-gridtwo {
         float: left;
-        width: 50%;
+        width: 100%;
     }
 
     .ban-pos-gridthree {
         float: left;
-        width: 50%;
+        width: 100%;
     }
 
     .welcome-left, .welcome-middle, .welcome-right {
@@ -4063,29 +4066,32 @@ a.best-btn {
 /*-- //responsive media queries --*/
 /* start booking_room */
 .online_reservation {
-    position: relative;
-    /* margin-top: -75px; */
+    margin-top: 400px;
     z-index: 999;
 }
 
 .b_room {
-    margin: 2% 2%;
-    display: inline-flex;
+    /* float: left; */
+    /* margin: 2% 2%; */
+    /* display: inline-flex; */
     box-shadow: 0px 0px 4px rgb(97, 97, 97);
     -webkit-box-shadow: 0px 0px 4px rgb(97, 97, 97);
     -moz-box-shadow: 0px 0px 4px rgb(97, 97, 97);
     -o-box-shadow: 0px 0px 4px rgb(97, 97, 97);
+    overflow: hidden;
 }
 
 .booking_room {
-    padding: 2%;
+    padding: 2% 2% 10% 2%;
     float: left;
-    width: 22.33333%;
-    background: #E4E4E4;
+    /* width: 25%; */
+    background: rgba(232,232,232,0.9);
+    /* height: 100%; */
+    margin-bottom: -10%;
 }
 
     .booking_room h4 {
-        font-size: 1.5em;
+        font-size: 1.2em;
         color: #202020;
         text-transform: capitalize;
         font-weight: 600;
@@ -4093,7 +4099,7 @@ a.best-btn {
     }
 
     .booking_room p {
-        font-size: 0.8725em;
+        font-size: 0.9em;
         color: #6b6b6b;
         line-height: 1.8em;
     }
@@ -4101,9 +4107,8 @@ a.best-btn {
 .reservation {
     font-family: 'Open Sans', sans-serif;
     padding: 2%;
-    float: left;
-    width: 74.33333%;
-    background: #FFFFFF;
+    /* width: 79%; */
+    background: rgba(255,255,255,.6);
 }
 
     .reservation ul li {
@@ -4123,14 +4128,13 @@ a.best-btn {
         }
 
         .reservation ul li.span1_of_3 {
-            width: 18.33333%;
+            width: 17.33333%;
             margin-left: 20px;
         }
 
     .reservation h5 {
-        font-size: 1em;
+        font-size: .9em;
         color: #5F5F5F;
-        text-transform: capitalize;
         margin-bottom: 10px;
     }
 
@@ -4180,7 +4184,7 @@ select {
 }
 
 .date_btn {
-    margin-top: 33px;
+    margin-top: 30px;
 }
 
     .date_btn form input[type="submit"] {
