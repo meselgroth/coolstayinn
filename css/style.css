@@ -502,7 +502,7 @@ ul li a.f4:hover {
     text-shadow: -1px -1px 0 #004961, 1px -1px 0 #004961, -1px 1px 0 #004961, 1px 1px 0 #004961;
 }
 /*-- menu --*/
-.navigation span {
+.menu {
     display: none;
 }
 /*-- //menu --*/
@@ -526,7 +526,7 @@ ul li a.f4:hover {
     text-align: center;
     float: left;
     width: 60%;
-    margin-top: 44px;
+    margin-top: 3.5%;
 }
 
     .navigation ul li a.active {
@@ -715,9 +715,10 @@ figure.effect-bubba {
 /*-- //effect- bubba --*/
 .banner-pos h4 {
     font-size: 30px;
-    font-family: 'Alegreya-Regular';
+    /* font-family: 'Alegreya-Regular'; */
     font-weight: 500;
     color: #fff;
+    text-shadow: 0px 1px 4px #000;
 }
 
 .banner-pos p {
@@ -728,9 +729,13 @@ figure.effect-bubba {
 }
 
 .banner-pos {
-    margin-top: -80px;
+    background-color: rgb(254, 241, 170);
+    /* background: linear-gradient(180deg, #fff, rgb(254, 241, 170)); */
 }
 
+.banner-pos-grids {
+    margin-top: -80px;
+}
 .ban-pos-gridone {
     background: #9E9FA4;
     padding: 25px;
@@ -2720,7 +2725,7 @@ select {
     }
 
     .navigation {
-        margin-top: 9px;
+        margin-top: 3.5%;
     }
 
     .social-icons {
@@ -2745,7 +2750,7 @@ select {
     }
 
     .banner-pos h4 {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     figure.effect-bubba p {
@@ -3068,26 +3073,30 @@ select {
 
     ul.nav1 {
         display: none;
-        background: #ECCA69;
+        background: rgb(71, 105, 231);
     }
 
     .navigation ul.nav1 li {
         display: inline-block;
         text-align: center;
-        margin: 9px 0;
+        margin: 0;
         width: 100%;
-        padding: 0px 0;
+        padding: 12px 0 6px;
     }
 
     .navigation ul {
         position: absolute;
         padding: 0;
         margin: 0;
-        top: 102px;
+        top: 169px;
         left: 0;
         width: 100%;
         z-index: 9999;
         width: 100%;
+    }
+
+    .navigation ul.nav1 li:nth-child(even) {
+        background: rgb(77, 112, 229);
     }
 
     .logo {
@@ -3104,11 +3113,14 @@ select {
     }
 
     .navigation {
-        width: 40%;
+        width: 0;
     }
 
     span.menu {
         text-align: center;
+        font-size: 20px;
+        margin: 20px 0 0;
+        color: #fff;
     }
 
     .banner-info {
@@ -3443,11 +3455,13 @@ select {
     }
 
     .banner-pos p {
-        margin: 0px 0 0px 0;
-        font-size: 12px;
+        margin: 20px 0 0px 0;
+        font-size: 14px;
         line-height: 1.7em;
     }
-
+    .banner-pos h4 {
+        font-size: 31px;
+    }
     .ban-pos-gridone h3 {
         margin-bottom: 7px;
         font-size: 20px;
@@ -3532,11 +3546,11 @@ select {
     }
 
     .navigation {
-        width: 31%;
+        /* width: 31%; */
     }
 
         .navigation ul {
-            top: 85px;
+            top: 160px;
         }
 
     .social-icons {
@@ -3728,12 +3742,12 @@ select {
     }
 
     .logo {
-        /* float: left; */
-        width: 38%;
+        float: left;
+        width: 70%;
     }
 
     .navigation {
-        width: 25%;
+        /* width: 25%; */
     }
 
     .header-nav {
@@ -3741,11 +3755,13 @@ select {
     }
 
     .social-icons {
-        margin-top: 4px;
+        margin: 10% -37px 0 0;
+        float: right;
+        /* position: absolute; */
     }
 
     .navigation ul {
-        top: 67px;
+        top: 140px;
     }
 
     .cl-effect-11 a {
@@ -3753,7 +3769,8 @@ select {
     }
 
     .navigation ul.nav1 li {
-        margin: 7px 0;
+        margin: 0;
+        padding: 12px 0 6px;
     }
 
     .sort-by select {
@@ -3793,21 +3810,19 @@ select {
 
     .banner-pos p {
         font-size: 13px;
-    }
-
-    figure.effect-bubba h4 {
-        padding-top: 17%;
-    }
-
-    .banner-pos p {
         margin: 20px 0 0px 0;
     }
 
+    .banner-pos h4 {
+        font-size: 25px;
+    }
+    figure.effect-bubba h4 {
+        padding-top: 17%;
+    }
     .ban-pos-gridtwo {
         float: left;
         width: 100%;
     }
-
     .ban-pos-gridthree {
         float: left;
         width: 100%;
@@ -3887,10 +3902,10 @@ select {
     }
 
     .banner {
-        min-height: 600px;
+        min-height: 668px;
     }
 
-    .banner-pos {
+    .banner-pos-grids {
         margin-top: -68px;
     }
 
@@ -4148,7 +4163,7 @@ select {
         margin-top: 10px;
     }
 
-    .banner-pos {
+    .banner-pos-grids {
         margin-top: -50px;
     }
 
@@ -4213,3 +4228,8 @@ select {
     }
 }
 /*-- //responsive media queries --*/
+
+.welcome {
+    background-color: rgba(253, 227, 84,.5);
+    /* background: url(../img/bgboats.jpg) no-repeat 0px 0px; */
+}
