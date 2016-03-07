@@ -326,12 +326,6 @@ ul.social-slide li i {
     display: inline-block;
 }
 
-@media screen and (max-width: 600px) {
-    .callbacks_nav {
-        top: 47%;
-    }
-}
-
 .callbacks_tabs a {
     visibility: hidden;
 }
@@ -379,10 +373,6 @@ a.callbacks_nav.callbacks2_nav.next {
 .banner {
     background: url(../img/hanna2.jpg) no-repeat 0px -174px;
     background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    -moz-background-size: cover;
     min-height: 855px;
 }
 /*-- //banner --*/
@@ -391,11 +381,10 @@ a.callbacks_nav.callbacks2_nav.next {
     font-size: 18px;
     font-weight: 600;
     margin: 0 18px;
-    /* font-family: 'Honey-Script'; */
     text-decoration: none;
     padding: 0 0 6px 0;
     color: #fff;
-    text-shadow: none;
+    /* text-shadow: 0px 0px 15px #fff; */
 }
 
     .cl-effect-11 a::before {
@@ -552,8 +541,9 @@ ul li a.f4:hover {
 
 .banner-info {
     margin-top: 121px;
-    float: left;
-    position: absolute;
+    height: 146px;
+    /* float: left; */
+    /* position: absolute; */
 }
 
 .banner-text h3 {
@@ -565,9 +555,8 @@ ul li a.f4:hover {
 
 .banner-text h4 {
     line-height: 1.3em;
-    font-size: 60px;
+    font-size: 45px;
     margin-top: 30px;
-    /* font-family: 'Sans-serif'; */
     color: #fff;
     text-align: center;
     font-weight: 600;
@@ -2588,7 +2577,7 @@ a.best-btn {
     }
 
     .banner-text h4 {
-        font-size: 54px;
+        font-size: 40px;
         margin-top: 17px;
     }
 
@@ -2965,7 +2954,7 @@ a.best-btn {
     }
 
     .banner-text h4 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .radio-btns {
@@ -3268,7 +3257,7 @@ a.best-btn {
 
     .banner-text h4 {
         margin-top: 10px;
-        font-size: 33px;
+        font-size: 30px;
     }
 
     .banner-bottom {
@@ -4069,43 +4058,32 @@ a.best-btn {
 }
 
 .b_room {
-    /* float: left; */
-    /* margin: 2% 2%; */
-    /* display: inline-flex; */
     box-shadow: 0px 0px 4px rgb(97, 97, 97);
-    -webkit-box-shadow: 0px 0px 4px rgb(97, 97, 97);
-    -moz-box-shadow: 0px 0px 4px rgb(97, 97, 97);
-    -o-box-shadow: 0px 0px 4px rgb(97, 97, 97);
-    overflow: hidden;
+    /* overflow: hidden; */
+    border-radius: 5px;
 }
 
 .booking_room {
-    padding: 2% 2% 10% 2%;
-    float: left;
-    /* width: 25%; */
-    background: rgba(232,232,232,0.9);
-    /* height: 100%; */
-    margin-bottom: -10%;
+    /* float: left; */
+    background: rgba(232,232,232,0.3);
+    padding: 8px 0 0 15px;
 }
 
     .booking_room h4 {
-        font-size: 1.2em;
-        color: #202020;
-        text-transform: capitalize;
+        font-size: 3em;
+        color: #858585;
         font-weight: 600;
-        margin-bottom: 10px;
+        font-family: "Honey-Script";
     }
 
     .booking_room p {
-        font-size: 0.9em;
-        color: #6b6b6b;
-        line-height: 1.8em;
+        font-size: 0.8725em;
+        line-height: 1.3em;
+        color: #858585;
     }
 
 .reservation {
-    font-family: 'Open Sans', sans-serif;
     padding: 2%;
-    /* width: 79%; */
     background: rgba(255,255,255,.6);
 }
 
@@ -4142,7 +4120,6 @@ select {
     font-size: 0.8725em;
     padding: 7px;
     outline: none;
-    margin: 5px 0;
     font-family: 'Open Sans', sans-serif;
     background: #ffffff;
     border: 1px solid #DFDFDF;
@@ -4167,7 +4144,6 @@ select {
     font-size: 0.8725em;
     padding: 8px;
     outline: none;
-    margin: 5px 0;
     font-family: 'Open Sans', sans-serif;
     border: 1px solid #DFDFDF;
     box-shadow: inset 0 0 2px rgb(236, 236, 236);
@@ -4182,7 +4158,7 @@ select {
 }
 
 .date_btn {
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
     .date_btn form input[type="submit"] {
@@ -4218,7 +4194,6 @@ select {
     width: 100%;
     box-shadow: 0px 0px 15px #fff;
     border-radius: 14px;
-    /* border: 0.5px solid #3752E2; */
 }
 
 .menu-img {
